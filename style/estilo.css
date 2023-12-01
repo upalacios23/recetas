@@ -1,0 +1,81 @@
+html {
+    background-color:chocolate;
+    font-size: 110%;
+}
+body {
+    margin: 0;
+}
+header {
+   display: flex;
+   height: 120px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 150%;
+}
+h1 img {
+    margin-top: 60px;
+}
+nav {
+    text-align: center;
+    font-size: 120%;
+}
+nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover {
+    color:rgb(154, 72, 13);;
+}
+article p {
+    font-size: 80%;
+}
+#listDestacados {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    font-size: 90%;
+}
+.contenedorPagina {
+    display: flex;
+    margin: 10px;
+}
+.galeria {
+    width: 480px;
+    height: 250px;
+}
+.destacados {
+    width: 12%;
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(154, 72, 13);
+}
+.main {
+    display: flex;
+    width: 88%;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(205, 95, 16);
+}
+#mainForm {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(205, 95, 16);
+}
+.parrafos {
+    margin: 5px;
+}
+#ImgIni {
+    margin: 5px;
+    margin-top: 10px;
+}

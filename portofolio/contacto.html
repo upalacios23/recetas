@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--HEAD-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Unai Palacios">
+        <meta name="description" content="Seccion de noticias de blog sobre recetas de cocina">
+        <link rel="stylesheet" type="text/css" href="../style/estilo.css"/>     
+    </head>
+<!--BODY-->
+    <body>
+       <header>
+        <h1><img src="../img/Banner.psd" alt="Recetas de cocina" height="100%" width="50%"></h1>
+       </header>
+       <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+       </nav>
+       <div class="contenedorPagina">
+        <div id="mainForm">
+            <div class="parrafos">
+                <h2>Contacto</h2>
+                <form action="/action_page.php" method="post">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+
+                    <label for="mail">Correo electronico:</label><br>
+                    <input type="email" id="mail" name="mail"><br><br>
+                    <label for="sexo">Sexo:</label><br>
+                    <input type="radio" id="h" name="sexo" value="hombre">
+                    <label for="h">Hombre</label><br>
+                    <input type="radio" id="mujer" name="sexo" value="mujer">
+                    <label for="mujer">CSS</label><br>
+
+                    <label for="areatxt">Sugerencias:</label><br>
+                    <textarea name="areatxt" cols="25" rows="4"></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+                  
+            </div>
+        </div>
+       </div>
+    </body>
+<!--FOOTER-->
+    <footer>
+        <p>Página web realizada por Unai Palacios con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+    </footer>
+</html>
